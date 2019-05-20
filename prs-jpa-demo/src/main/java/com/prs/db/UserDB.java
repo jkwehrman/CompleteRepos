@@ -27,7 +27,7 @@ public class UserDB {
 	}
 
 
-	
+
 	public static boolean add(User u) {
 		boolean success = false;
 		EntityManager em = DBUtil.getEmFactory().createEntityManager();

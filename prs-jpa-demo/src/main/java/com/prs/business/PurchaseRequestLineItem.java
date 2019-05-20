@@ -21,7 +21,7 @@ public class PurchaseRequestLineItem {
 	@JoinColumn(name = "productID")	
 	private Product product;
 	private int quantity;
-	
+
 	public PurchaseRequestLineItem() {
 		id=0;
 		purchaseRequest=null;
@@ -75,7 +75,7 @@ public class PurchaseRequestLineItem {
 				+ ", quantity=" + quantity + "]";
 	}
 
-	
- 
-	
+
+
+
 }

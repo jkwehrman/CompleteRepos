@@ -21,7 +21,7 @@ public class Vendor {
 	private String email;
 	@Column(name="IsPreApproved")
 	private boolean preApproved;
-	
+
 	public Vendor() {
 		id = 0;
 		code="";
@@ -34,7 +34,7 @@ public class Vendor {
 		email="";
 		preApproved=false;
 	}
-	
+
 	public int getId() {
 		return id;
 	}

@@ -20,7 +20,7 @@ public class Product {
 	private double price;
 	private String unit;
 	private String photoPath;
-	
+
 	public Product() {
 		id = 0;
 		vendor = null;
@@ -30,9 +30,9 @@ public class Product {
 		unit = "";
 		photoPath = "";
 	}
-	
+
 	public Product(int inId, Vendor inVendor, String inVPartNumber, String inName, 
-					double inPrice, String inUnit, String inPhotoPath) {
+			double inPrice, String inUnit, String inPhotoPath) {
 		id = inId;
 		vendor = inVendor;
 		partNumber = inVPartNumber;
@@ -84,11 +84,11 @@ public class Product {
 	public void setPhotoPath(String photoPath) {
 		this.photoPath = photoPath;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", vendor =" + vendor + ", partNumber=" + partNumber + ", name="
 				+ name + ", price=" + price + ", unit=" + unit + ", photoPath=" + photoPath + "]";
 	}
-	
+
 }

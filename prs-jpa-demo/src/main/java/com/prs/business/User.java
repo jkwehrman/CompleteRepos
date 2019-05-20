@@ -21,11 +21,11 @@ public class User {
 	private boolean reviewer;
 	@Column(name="IsAdmin")
 	private boolean admin;
-	
+
 	public User() {
-		
+
 	}
-	
+
 	public User(int id, String userName, String password, String firstName, String lastName, String phoneNumber,
 			String email, boolean reviewer, boolean admin) {
 		super();
@@ -50,7 +50,7 @@ public class User {
 		setReviewer(m);
 		setAdmin(a);
 	}
-	
+
 	public int getId() {
 		return id;
 	}
@@ -113,5 +113,5 @@ public class User {
 				+ ", lastName=" + lastName + ", phoneNumber=" + phoneNumber + ", email=" + email + ", reviewer="
 				+ reviewer + ", admin=" + admin +"]";
 	}
-	
+
 }
